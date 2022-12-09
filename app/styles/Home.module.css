@@ -1,0 +1,404 @@
+.main {
+  min-height: 100vh;
+  width: 100vw;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.topper {
+  width: 100%;
+  background-image: url('../public/desktop/image-hero.jpg');
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+  height: 60vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  color: #fff;
+}
+
+.topperContent {
+  margin: auto;
+  display: inline-flex;
+  justify-content: space-between;
+  flex-direction: column;
+  width: 70%;
+  height: 90%;
+}
+
+.hambMenu,.inputCheck {
+  display: none;
+  cursor: pointer;
+  height: auto;
+}
+
+.menuDiv {
+  position: absolute;
+  display: none;
+  top: 70px;
+  right: -201px;
+  width: 200px;
+  background: #fff;
+  border-radius: 5px;
+  -webkit-border-radius: 5px;
+  -moz-border-radius: 5px;
+  -ms-border-radius: 5px;
+  -o-border-radius: 5px;
+  transition: all .5s;
+}
+
+.menuContent {
+  margin: 10px auto;
+  width: 80%;
+  color: black;
+  margin: auto;
+}
+
+.menuContent > ul {
+  display: flex;
+  flex-direction: column;
+  padding: 10px 0 20px;
+}
+
+.menuContent > ul > li {
+  border-bottom: 1px solid black;
+  padding: 10px 0 2px;
+  margin: 0 2px;
+  height: 35px;
+}
+
+.menuContent > ul > li:hover {
+  background: #e6e6e6;
+}
+
+.topHeader {
+  display: flex;
+  justify-content: space-between;
+}
+
+.topperText {
+  margin: 0 0 3rem;
+  width: 470px;
+  height: auto;
+  border: 2px solid #fff;
+  padding: 2rem;
+  font-size: 35px;
+  font-weight: 100;
+  letter-spacing: 2px;
+  line-height: 1.2;
+}
+
+.logo {
+  background-image: url("../public/images/logo.svg");
+  background-repeat: no-repeat;
+  background-size: contain;
+  min-width: 200px;
+  height: 50px;
+  margin: .8rem;
+}
+
+.middle {
+  width: 100%;
+  height: 65vh;
+  background: #f6f6f6;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 2rem 0;
+}
+
+.midContainer {
+  width: 70%;
+  height: 80%;
+  position: relative;
+}
+
+.imgMid {
+  background-image: url('../public/desktop/image-interactive.jpg');
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+  width: 65%;
+  height: 100%;
+}
+
+.textMid {
+  position: absolute;
+  right: 0;
+  bottom: 0;
+  width: 50%;
+  min-width: 320px;
+  max-height: 250px;
+  padding: 3em 2.5rem 0;
+  background: #f6f6f6;
+  color: black;
+}
+
+.textContentMid>p {
+  line-height: 1.5;
+
+}
+
+.textContentMid>h1 {
+  font-size: 45px;
+  margin: 0 0 20px;
+  text-align: left;
+  letter-spacing: 2px;
+  font-weight: 100;
+}
+
+.bottom {
+  background: #f6f6f6;
+  width: 100%;
+  min-height: 65vh;
+  display: flex;
+  justify-content: center;
+  padding: 1rem 0;
+}
+
+.botContainer {
+  width: 85%;
+  display: flex;
+  flex-direction: column;
+  height: 95%;
+}
+
+.headBottom {
+  display: flex;
+  width: 100%;
+  justify-content: space-between;
+  padding: 1rem 0;
+  letter-spacing: 3px;
+  font-weight: light;
+  margin: auto 0;
+}
+
+.headBottom>button {
+  background: #fff;
+  border: 1px solid #000;
+  color: #000;
+  letter-spacing: 3px;
+  padding: .5rem 1.5rem;
+}
+
+.headBottom>button:active {
+  background: #000;
+  border: 1px solid #fff;
+  color: #f6f6f6;
+}
+
+.headBottom>h1 {
+  font-size: 40px;
+}
+
+
+.imgBottom {
+  width: 110%;
+  display: flex;
+  flex-wrap: wrap;
+}
+
+#img {
+  position: relative;
+  width: 22%;
+  height: 500px;
+  margin: .5rem;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-color: #f6f6f6;
+  color: #fff;
+}
+
+#img:hover {
+  opacity: .6;
+  cursor: pointer;
+}
+
+.img1Bot {
+  background-image: url('../public/desktop/image-deep-earth.jpg');
+}
+
+.img2Bot {
+  background-image: url('../public/desktop/image-night-arcade.jpg');
+}
+
+.img3Bot {
+  background-image: url('../public/desktop/image-soccer-team.jpg');
+}
+
+.img4Bot {
+  background-image: url('../public/desktop/image-grid.jpg');
+}
+
+.img5Bot {
+  background-image: url('../public/desktop/image-from-above.jpg');
+}
+
+.img6Bot {
+  background-image: url('../public/desktop/image-pocket-borealis.jpg');
+}
+
+.img7Bot {
+  background-image: url('../public/desktop/image-curiosity.jpg');
+}
+
+.img8Bot {
+  background-image: url('../public/desktop/image-fisheye.jpg');
+}
+
+@media (max-width:700px) {
+
+  .textContentMid>h5 {
+    margin: 0 0 10px;
+    letter-spacing: 1px;
+    font-size: 35px;
+  }
+
+  .textContentMid>p {
+    margin: 0 0 10px;
+    letter-spacing: 1px;
+    font-size: 16px;
+    font-family: 'Alata';
+  }
+
+  .middle {
+    margin: 4rem;
+    height: auto;
+  }
+
+  .imgMid {
+    width: 100%;
+    height: 300px;
+    margin: 3rem 0;
+  }
+
+  .midContainer {
+    position: static;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .textMid {
+    position: static;
+    padding: 5px;
+    text-align: center;
+    height: auto;
+    width: 400px;
+  }
+
+  .hambMenu {
+    display: block;
+    margin: 0 0 0 auto;
+  }
+
+  .headList {
+    display: none;
+  }
+
+  .inputCheck:checked ~ div {
+    right: 7px;
+}
+
+  .closeMenu {
+    font-size: 20px;
+    position: absolute;
+    right: 10px;
+    top: 0px;
+    padding: 5px;
+    border-radius: 50%;
+    -webkit-border-radius: 50%;
+    -moz-border-radius: 50%;
+    -ms-border-radius: 50%;
+    -o-border-radius: 50%;
+}
+
+  .closeMenu:hover {
+    cursor: pointer;
+    background-color: #e6e6e6;
+  }
+
+  .menuContent {
+    position: relative;
+    color: black;
+    font-family: 'Alata';
+  }
+}
+
+@media (max-width:650px) {
+
+  .topper {
+    height: 80vh;
+  }
+
+  .topperContent {
+    width: 90%;
+  }
+
+  .topperText>h1 {
+    font-size: 40px;
+    padding: .5rem .5rem 1rem;
+    font-weight: 100;
+  }
+
+  .topperText {
+    width: 350px;
+    height: 170px;
+    margin: auto;
+    padding: 1rem;
+  }
+
+  .logo {
+    width: 150px;
+  }
+
+  .imgBottom {
+    width: 110%;
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+  }
+  
+  #img {
+    
+    width: 95%;
+    height: 130px;
+    margin: 0;
+    background-size: cover;
+  }
+
+  .img1Bot {
+    background-image: url('../public/mobile/image-deep-earth.jpg');
+  }
+  
+  .img2Bot {
+    background-image: url('../public/mobile/image-night-arcade.jpg');
+  }
+  
+  .img3Bot {
+    background-image: url('../public/mobile/image-soccer-team.jpg');
+  }
+  
+  .img4Bot {
+    background-image: url('../public/mobile/image-grid.jpg');
+  }
+  
+  .img5Bot {
+    background-image: url('../public/mobile/image-from-above.jpg');
+  }
+  
+  .img6Bot {
+    background-image: url('../public/mobile/image-pocket-borealis.jpg');
+  }
+  
+  .img7Bot {
+    background-image: url('../public/mobile/image-curiosity.jpg');
+  }
+  
+  .img8Bot {
+    background-image: url('../public/mobile/image-fisheye.jpg');
+  }
+}
